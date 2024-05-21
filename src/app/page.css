@@ -1,0 +1,113 @@
+.hRIMhQ {
+    color: rgb(252, 252, 252);
+    display: flex;
+    width: 100%;
+    height: 155vw;
+    min-height: 240px;
+    z-index: 100;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+}
+
+.gynsfc {
+    position: relative;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+.header-container {
+    box-sizing: border-box;
+    display: block;
+    overflow: hidden;
+    width: initial;
+    height: initial;
+    background: none;
+    opacity: 1;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    inset: 0px;
+}
+
+.header-img {
+    position: absolute;
+    inset: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    border: none;
+    margin: auto;
+    display: block;
+    width: 0px;
+    height: 0px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.section-content {
+    display: contents
+}
+
+.jVWALx {
+    max-width: 100%;
+    font-size: 1.75rem;
+    line-height: 1.4;
+    font-family: Circular, Circular-fallback, Arial, sans-serif;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media (min-width: 700px) {
+    .MuiBox-MuiBox-root-LjuiGqMjhEm3DUb-eRbIA {
+        width: 25rem;
+    }
+}
+
+@media (min-width: 0px) {
+    .MuiBox-MuiBox-root-LjuiGqMjhEm3DUb-eRbIA {
+        width: 100%;
+    }
+}
+
+.MuiBox-MuiBox-root-LjuiGqMjhEm3DUb-eRbIA {
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.MuiBox-MuiBox-root-StkHMOv0_RxMLvseirCzR {
+    width: 100%;
+    padding-top: 15vw;
+    padding-bottom: 12.5vw;
+}
+
+@media (min-width: 0px) {
+    .MuiBox-MuiBox-root-6HyFOxEAOKwoj9-98dGaX {
+        text-align: center;
+        align-items: center;
+    }
+}
+
+.MuiBox-MuiBox-root-6HyFOxEAOKwoj9-98dGaX {
+    margin-top: 40px;
+    flex-direction: column;
+}
+
+.hgZykF {
+    height: 100%;
+    width: 100%;
+    color: rgb(252, 252, 252);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px auto;
+}

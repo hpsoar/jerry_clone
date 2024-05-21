@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Menu from "./menu";
 import Header from "./header";
+import Footer from "./footer";
 
-const menuStyle = {
+const menuStyle: React.CSSProperties = {
     position: 'fixed',
     zIndex: 10000,
     width: '100%'
@@ -17,10 +18,14 @@ const headerStyle = {
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col justify-between">
-    <div style={menuStyle}>
+    <div className="section-content">
       <Menu/>
     </div>
     <Header/>
+    <div>
+
+    </div>
+    <Footer/>
     </main>
   );
 }
