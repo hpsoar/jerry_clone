@@ -2,11 +2,12 @@ import Image from "next/image";
 import Menu from "./menu";
 import Header from "./header";
 import Footer from "./footer";
+import Main from './main';
 
 const menuStyle: React.CSSProperties = {
-    position: 'fixed',
-    zIndex: 10000,
-    width: '100%'
+  position: 'fixed',
+  zIndex: 10000,
+  width: '100%'
 };
 
 const headerStyle = {
@@ -18,14 +19,14 @@ const headerStyle = {
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col justify-between">
-    <div className="section-content">
-      <Menu/>
-    </div>
-    <Header/>
-    <div>
+      <div className="section-content">
+        <Menu />
+      </div>
+      <Main />
+      <div>
 
-    </div>
-    <Footer/>
+      </div>
+      <Footer />
     </main>
   );
 }
