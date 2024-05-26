@@ -1,14 +1,9 @@
 import "./page.css";
 
-const containerStyle = {
-  background: "#ff05f5",
-};
-
 export default function Header() {
   return (
     <div
-      className="sc-cede6ad-0 fiUclQ sc-38492363-0 kAJvHO full-hero"
-      style={containerStyle}
+      className="sc-992132bb-0 gynsfc sc-23ad907b-0 hRIMhQ full-hero"
     >
       <span className="header-container">
         <img
@@ -33,9 +28,9 @@ export default function Header() {
               </div>
               <div
                 className="sc-9597c78b-0 hWKsSS PayloadHomepageHeroCta-subtitle"
-                font-size="16px"
-                font-family="circular"
-                font-weight="500"
+                fontSize="16px"
+                fontFamily="circular"
+                fontWeight="500"
               >
                 We’re reinventing car ownership. Now, compare insurers, loans,
                 and repair costs — and earn rewards when you drive well.
